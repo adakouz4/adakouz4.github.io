@@ -1,9 +1,35 @@
 body{
+
+    width: 75%;
              background-image:
   URL("http://data.whicdn.com/images/7369201/Wuthering_Heights_by_jyoujo_large.jpg");
              background-size: cover;
              
          }
+    .header, .footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+    .column {
+    float: left;
+    padding: 15px;
+}
+
+    .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+    .menu {
+    width: 25%;
+}
+
+   .content {
+    width: 75%;
+}
          a:hover{
              color: lightpink;
              text-decoration:none
@@ -32,5 +58,6 @@ body{
          }
          
         img {
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+    opacity: 0.75;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
