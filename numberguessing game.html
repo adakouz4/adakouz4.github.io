@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Number guessing game</title>
+    </head>
+    
+    <body>
+        <script>
+    
+        // set minimum and maximum for the guess
+        const MAX_GUESS=10;
+            
+        // create a computer guess
+        var computerGuess= Math.floor(Math.random() * MAX_GUESS)+1;
+            
+        // get user's guess and store in variable    
+        var guess = prompt("Enter your guess: ");
+        document.write("<h1>You guessed: " + guess);
+        
+        //compare guesses, double == converts the string to integer
+        if (computerGuess == guess) {
+          document.write("<h1>correct!</h1>");
+        }
+        else{
+          document.write("<h1>incorrect!<h1> " +guess);  
+        }
+    
+            
+        </script>
+    </body>
+ </html>
