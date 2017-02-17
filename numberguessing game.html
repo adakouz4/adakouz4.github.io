@@ -11,7 +11,13 @@
         const MAX_GUESS=10;
             
         // create a computer guess
-        var computerGuess= Math.floor(Math.random() * MAX_GUESS)+1;
+        var computerNumber= Math.floor(Math.random() * MAX_GUESS)+1;
+            
+        // create a variable to hold the user's guess
+        var guess= "";
+        
+        //keep asking the user to guess until they get it right    
+        while (computerNumber != guess) 
             
         // get user's guess and store in variable    
         var guess = prompt("Enter your guess: ");
@@ -19,10 +25,10 @@
         
         //compare guesses, double == converts the string to integer
         if (computerGuess == guess) {
-          document.write("<h1>correct!</h1>");
+          document.write("<h1>correct! you guessed" + guess + " </h1>);"
         }
         else{
-          document.write("<h1>incorrect!<h1> " +guess);  
+          document.write("<h1>incorrect. "</h1>");  
         }
     
             
