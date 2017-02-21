@@ -17,18 +17,19 @@
         var guess= "";
         
         //keep asking the user to guess until they get it right    
-        while (computerNumber != guess) 
+        while (computerNumber != guess) {
             
-        // get user's guess and store in variable    
-        var guess = prompt("Enter your guess: ");
-        document.write("<h1>You guessed: " + guess);
-        
-        //compare guesses, double == converts the string to integer
-        if (computerGuess == guess) {
-          document.write("<h1>correct! you guessed" + guess + " </h1>);"
-        }
-        else{
-          document.write("<h1>incorrect.</h1>;)"  
+            // get user's guess and store in variable    
+            var guess = prompt("Enter your guess: ");
+            document.write("<h1>You guessed: " + guess);
+
+            //compare guesses, double == converts the string to integer
+            if (computerGuess == guess) {
+              document.write("<h1>correct! you guessed" + guess + " </h1>);"
+            }
+            else{
+              document.write("<h1>incorrect.</h1>;)"  
+            }
         }
     
             
