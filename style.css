@@ -48,7 +48,7 @@ body {
          }
 img {
     opacity: 0.75;
-    filter: alpha(opacity=70); /* For IE8 and earlier */
+    filter: alpha(opacity=75); /* For IE8 and earlier */
 }
 img:hover {
     opacity: 1;
