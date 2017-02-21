@@ -25,7 +25,7 @@ body {
          }
          table{
              border: 1px solid black;
-             font-size;
+             /* We don't have any letters in our table just yet font-size; */
              background-color: rgba(254, 240, 240, 1);
          }
          td{
