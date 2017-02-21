@@ -25,7 +25,6 @@ body {
          }
          table{
              background-color:cyan;
-         }
              border: 1px solid black;
              font-size;
              background-color: rgba(255, 255, 0, 0.5);
@@ -33,6 +32,9 @@ body {
          td{
              border: 1px solid blue;
              padding: 5px;
+         }
+         td.black{
+             background-color: black;
          }
          p{
              background-color: lightblue;
