@@ -1,0 +1,31 @@
+<html>
+    <head>
+      <title>Dice roller</title>
+    </head>
+    
+    <body>
+    
+        <img width=200 onmouseover="changeImage(this);"
+             onclick= "diceRoll();"
+        src="https://pinastro.files.wordpress.com/2008/05/dice.jpg">
+        <div id="output"></div>
+           
+           
+        <script>
+            function changeImage(id){
+                id.src=
+                    "https://img.clipartfest.com/6c76fb9ae57fdf7c9b1af4579509645c_blue-backgammon-precision-dice-blue-dice-clipart_1200-740.jpeg";
+                
+            }
+            function diceRoll() {
+            var randNum= Math.floor(Math.random() * 6) + 1;
+            document.getElementById("output").innerHTML = "<h1>" + randNum + "</h1>";
+        }
+        
+        
+      </script>
+    
+    
+    </body>
+    
+</html>
